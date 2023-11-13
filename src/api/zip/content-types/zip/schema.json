@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zips",
+  "info": {
+    "singularName": "zip",
+    "pluralName": "zips",
+    "displayName": "zip"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "zipcode": {
+      "type": "string",
+      "maxLength": 6,
+      "minLength": 5
+    }
+  }
+}
